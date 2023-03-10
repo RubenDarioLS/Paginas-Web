@@ -1,15 +1,22 @@
+body{
+	
+	background-color: #f76c6c;
+
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+}
+
 header {
 	background-color: #fff;
-	padding: 20px;
-	display: flex;
-	justify-content: space-between;
+	padding: 15px;
 	align-items: center;
-	box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 100;
+	box-shadow: 20px 20px 10px rgba(0,0,0,0.1);
+	width: 90%;
+	margin: 0px 5px;
+	
 }
 
 .logo a {
@@ -18,9 +25,17 @@ header {
 	text-decoration: none;
 }
 
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
 nav ul {
 	display: flex;
 	list-style: none;
+	
 }
 
 nav ul li {
